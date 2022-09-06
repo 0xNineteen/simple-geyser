@@ -1,0 +1,15 @@
+[package]
+name = "geyser"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+solana-geyser-plugin-interface = "=1.10.34"
+solana-program = "=1.10.34"
+solana-account-decoder = "=1.10.34"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
