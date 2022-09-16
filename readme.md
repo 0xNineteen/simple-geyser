@@ -2,6 +2,7 @@
 - src/plugin.rs: main plugin code
 - to run: `cargo build && solana-test-validator -r --geyser-plugin-config config.json`
 - note: make sure `solana-test-validator --version` matches the `Cargo.toml` version
+  - sh -c "$(curl -sSfL https://release.solana.com/<b>v1.14.1</b>/install)" -- to install a specific version
 
 ...
 
