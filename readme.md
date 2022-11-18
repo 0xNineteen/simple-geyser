@@ -31,3 +31,4 @@ account CRCJ7zzd5SSmA8AJ9gbtv4QrYZ2zw4YKWa1MCDw1NTf2 updated at slot 3!
 reference impls:
 - https://github.com/clockwork-xyz/clockwork/tree/main/plugin
 - https://github.com/solana-labs/solana-accountsdb-plugin-postgres/tree/master 
+- https://github.com/mwrites/solana-geyser-plugin-scaffold
