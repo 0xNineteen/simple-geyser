@@ -1,4 +1,4 @@
-use solana_geyser_plugin_interface::geyser_plugin_interface::GeyserPlugin;
+use agave_geyser_plugin_interface::geyser_plugin_interface::GeyserPlugin;
 
 mod plugin;
 pub use plugin::SimplePlugin;
